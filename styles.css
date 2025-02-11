@@ -1,0 +1,16 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui;
+}
+
+h1 {
+  display: flex; /* using flexbox */
+  justify-content: center; /* centers horizontally */
+  align-items: center; /* centers vertically */
+  height: 50px; /* full viewport height */
+}
