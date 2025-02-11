@@ -6,11 +6,52 @@
 
 body {
   font-family: system-ui;
+  background-color: #68a8a4;
+  /* background-image: url("paper.gif"); */
 }
 
 h1 {
   display: flex; /* using flexbox */
+  padding: 0;
+  margin: 50px;
   justify-content: center; /* centers horizontally */
+  background-color: #ffffff;
+  border-radius: 5px;
   align-items: center; /* centers vertically */
-  height: 50px; /* full viewport height */
+  height: 100px;
+}
+
+.card__list {
+  list-style: none;
+}
+
+.card {
+  display: flex; /* using flexbox */
+  flex-direction: column;
+  gap: 0px;
+  padding: 0;
+  margin: 50px;
+  font-family: system-ui, sans-serif;
+  background-color: #ffffff;
+  border-radius: 5px;
+  align-items: center; /* centers horizontally */
+  /*height: 70vh; /* 70 of full viewport height */
+}
+
+.navigation__menu {
+  list-style: none;
+  display: flex; /* using flexbox */
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.navigation__item {
+  background-color: #e3e7e0;
+  color: #ffffff;
+  width: 100px;
+  height: 100px;
+  padding: 15px 15px;
+  border-radius: 5px;
+  position: fixed;
+  bottom: 0;
 }
