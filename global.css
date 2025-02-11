@@ -1,0 +1,12 @@
+@import "./styles.css";
+@import "./components/header.css";
+@import "./components/card.css";
+@import "./components/button.css";
+@import "./components/navigation.css";
+
+/* global styles */
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
