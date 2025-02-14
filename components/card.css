@@ -1,0 +1,49 @@
+.card {
+  display: flex; /* using flexbox */
+  flex-direction: column;
+  margin: 50px;
+  padding: 0;
+  gap: 0px;
+  align-items: center; /* centers horizontally */
+  font-family: system-ui, sans-serif;
+  background-color: var(--color__card);
+  border-radius: 5px;
+  height: 30vh; /* 30 of full viewport height */
+}
+
+.card__question {
+}
+
+.card__answer {
+  display: none;
+  text-align: center;
+}
+
+.card__answer--enabled {
+  display: block;
+}
+
+.card__answer-button {
+  display: block;
+  border: none;
+  cursor: pointer;
+}
+
+.card__answer-button:hover {
+  background-color: var(--color__background-header);
+}
+
+.bookmark {
+}
+
+.bookmark__icon {
+}
+
+.bookmark__icon--enabled {
+}
+
+.taglist {
+}
+
+.tag__item {
+}

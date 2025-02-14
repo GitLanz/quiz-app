@@ -4,67 +4,165 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home page</title>
-    <!-- <link rel="stylesheet" href="./styles.css" /> -->
-    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
-  <body>
-    <header>
-      <h1>Quiz App</h1>
+  <body class="layout__page">
+    <header class="layout__header">
+      <h1>QUIZ APP</h1>
     </header>
     <main>
-      <h2></h2>
-      <ul class="card__list">
+      <ul class="layout__cardlist">
         <li>
           <article class="card">
-            <h3 class="card__question">Question</h3>
-            <h4 class="card__answer">Answer (button)</h4>
-            <h5 class="card__bookmark">
-              Bookmark (button)
-              <button></button>
-            </h5>
-            <h6 class="card__tag">
-              (tag)
-              <span role="img" aria-label="category (tag)">:-)</span>
-            </h6>
+            <h2 class="card__question">Question 1?</h2>
+            <button class="card__answer-button">Show Answer</button>
+            <span class="card__answer">Answer Answer 1</span>
+            <ul class="taglist">
+              <li class="tag__item">tag 1</li>
+              <li class="tag__item">tag 2</li>
+            </ul>
+            <button class="bookmark">
+              <svg
+                class="bookmark__icon bookmark__icon--enabled"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z" />
+              </svg>
+            </button>
           </article>
         </li>
         <li>
           <article class="card">
-            <h3 class="card__question">Question</h3>
-            <h4 class="card__answer">Answer (button)</h4>
-            <h5 class="card__bookmark">Bookmark (button)</h5>
-            <h6 class="card__tag">(tag)</h6>
+            <h2 class="card__question">Question 2?</h2>
+            <button class="card__answer-button">Show Answer</button>
+            <span class="card__answer card__answer--enabled"
+              >Answer Answer 2</span
+            >
+            <ul class="taglist">
+              <li class="tag__item">tag 1</li>
+              <li class="tag__item">tag 2</li>
+            </ul>
+            <button class="bookmark">
+              <svg
+                class="bookmark__icon bookmark__icon--enabled"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z" />
+              </svg>
+            </button>
           </article>
         </li>
         <li>
           <article class="card">
-            <h3 class="card__question">Question</h3>
-            <h4 class="card__answer">Answer (button)</h4>
-            <h5 class="card__bookmark">Bookmark (button)</h5>
-            <h6 class="card__tag">(tag)</h6>
+            <h2 class="card__question">Question 3?</h2>
+            <button class="card__answer-button">Show Answer</button>
+            <span class="card__answer">Answer Answer 3</span>
+            <ul class="taglist">
+              <li class="tag__item">tag 1</li>
+              <li class="tag__item">tag 2</li>
+            </ul>
+            <button class="bookmark">
+              <svg
+                class="bookmark__icon bookmark__icon--enabled"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z" />
+              </svg>
+            </button>
           </article>
         </li>
       </ul>
     </main>
-    <nav>
-      <ul class="navigation__menu">
-        <li>
-          <article class="navigation__item">
-            <a href="#home">Home</a>
-          </article>
+    <nav class="nav">
+      <ul class="navlist">
+        <li class="nav__item">
+          <a class="nav__link nav__link--enabled" href="/">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-house"
+            >
+              <path id="home" d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+              <path
+                d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+              />
+            </svg>
+          </a>
         </li>
-        <li>
-          <article class="navigation__item">
-            <a href="#bookmark">Bookmark</a>
-          </article>
+        <li class="nav__item">
+          <a class="nav__link nav__link--enabled" href="/">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-house"
+            >
+              <path id="home" d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+              <path
+                d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+              />
+            </svg>
+          </a>
         </li>
-        <li>
-          <article class="navigation__item">
-            <a href="#profile">Profile</a>
-          </article>
+        <li class="nav__item">
+          <a class="nav__link nav__link--enabled" href="/">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-house"
+            >
+              <path id="home" d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8" />
+              <path
+                d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+              />
+            </svg>
+          </a>
         </li>
       </ul>
     </nav>
-    <footer></footer>
   </body>
 </html>

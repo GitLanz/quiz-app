@@ -1,0 +1,21 @@
+.nav {
+}
+.navlist {
+  display: flex;
+}
+.nav__item {
+  flex-grow: 1;
+  color: var(--color__background-header);
+  padding: 1px 1px;
+}
+.nav__link {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem 2rem;
+  color: inherit;
+}
+.nav__link--enabled {
+  background-color: var(--color__navigation);
+  color: brown;
+}

@@ -1,12 +1,27 @@
-@import "./styles.css";
-@import "./components/header.css";
-@import "./components/card.css";
-@import "./components/button.css";
-@import "./components/navigation.css";
-
 /* global styles */
 
+*, /* universal selector */
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color__background: #68a8a4;
+  --color__font: #000c0c;
+  --color__card: #ffffff;
+  --color__navigation: #e3e7e0;
+  --color__background-header: #ef7c7c;
+}
+
+body {
+  background-color: var(--color__background);
+  color: var(--color__font);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+  list-style: none;
 }

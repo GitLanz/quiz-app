@@ -1,0 +1,21 @@
+.layout__page {
+  min-height: 100dvh;
+}
+
+.layout__header {
+  display: flex; /* using flexbox */
+  flex-direction: column;
+  margin: 50px;
+  padding: 0;
+  justify-content: center; /* centers horizontally */
+  align-items: center; /* centers vertically */
+  background-color: var(--color__background-header);
+  border-radius: 5px;
+  height: 100px;
+  font-family: system-ui, sans-serif;
+  height: 30vh; /* 30 of full viewport height */
+}
+
+.layout_cardlist {
+  display: flex;
+}
